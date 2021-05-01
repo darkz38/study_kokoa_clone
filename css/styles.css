@@ -1,25 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap");
 @import "reset.css";
-@import "status-bar.css";
+@import "components/status-bar.css";
 
+/* Components */
+@import "valuables.css";
+
+/* Sreens */
+@import "screens/login.css";
+
+/* 공통사항에 대해서 제일 밖에 두는게 좋음 */
 body {
   font-family: "New Tegomin", serif;
-}
-
-.welcome-header {
-  margin: 90px 0px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.welcome-header__title {
-  margin-bottom: 20px;
-  font-size: 25px;
-}
-
-.welcome-header__text {
-  width: 60%;
-  opacity: 0.7;
 }
