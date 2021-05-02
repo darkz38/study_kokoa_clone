@@ -3,7 +3,8 @@
 @import "components/status-bar.css";
 
 /* Components */
-@import "valuables.css";
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
 
 /* Sreens */
 @import "screens/login.css";
@@ -11,4 +12,5 @@
 /* 공통사항에 대해서 제일 밖에 두는게 좋음 */
 body {
   font-family: "New Tegomin", serif;
+  height: 1000vh;
 }
