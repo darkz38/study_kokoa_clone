@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap");
 @import "reset.css";
+@import "variables.css";
 
 /* Components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
+@import "components/user-components.css";
 
 /* Sreens */
 @import "screens/login.css";
