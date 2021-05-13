@@ -7,12 +7,18 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-components.css";
+@import "components/badge.css";
 
 /* Sreens */
+
 @import "screens/login.css";
 @import "screens/friends.css";
 /* 공통사항에 대해서 제일 밖에 두는게 좋음 */
 body {
   font-family: "New Tegomin", serif;
   color: #2e363e;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
 }
